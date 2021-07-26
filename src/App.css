@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.body {
+  min-height: 100vh;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.cards {
+  
+  margin-left: 18%;      
+  margin-right: 18%;
+  width: auto;
+  
+
+}
+
+.empty-card {
+  margin-top: 1rem;
+  width: 6rem;
+  height: 10rem;
+  background-color: green;
+}
+
+.occupied-card {
+  margin-top: 1rem;
+  width: 6rem;
+  height: 10rem;
+  background-color:red;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.sample-empty {
+  width: 5rem;
+  background-color:  green;
+  float: right;
+}
+
+.link {
+  color: white;
+}
+.image{
+  opacity:0.1;
+}
